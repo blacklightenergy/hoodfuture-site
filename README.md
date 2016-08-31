@@ -4,6 +4,7 @@ repository for the hoodfuture website!
 So at the moment [jm](http://github.com/jermainemontiel) is researching the technologies we wanna use to build the site. It'll be mostly static so using a static site generator might be the way to go.
 
 Here's a few we're looking at:
+  - [Jekyll](http://jekyllrb.com) (this one may be the one we use since that's what GitHub Pages is built on, and the build process would be _much_ easier: we'd only have to push content updates instead of generating the entire site. GitHub Pages will do the generation for us)
   - [Hexo](http://hexo.io)
   - [Hugo](http://gohugo.io)
   - [Metalsmith](http://metalsmith.io)
