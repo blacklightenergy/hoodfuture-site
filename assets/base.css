@@ -39,7 +39,7 @@ a {font-weight: bold; font-size: 2em; }
 .contact a { color: #ffe0ac; }
 footer {padding: 2.5vh 0; }
 .channel { width: 100vw; height: auto; }
-.channel img {width: 100%; height: auto; }
+.channel img {width: auto; height: auto; }
 .channels{ padding: 20vh 0; }
 
 @media screen and (max-width: 414px ) {
