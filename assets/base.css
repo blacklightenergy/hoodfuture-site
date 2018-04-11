@@ -4,47 +4,20 @@
   src: url('fonts/LeagueGothic-Regular.otf') format('opentype');
 }
 
-body { font-family: 'Roboto', sans-serif; margin: 0; background-color: #2d2d2d; color: #e3e2e2; }
-.hf {
-  padding: 0;
-  height: 100vh;
+body { font-family: 'Roboto', sans-serif; margin: 0; background-color: #FFDEA9; color: #2d2d2d;
   width: auto;
-  background-image: url("HOODFUTURE_COM_30F.gif");
-  background-size: cover;
-  background-repeat: none;
+  min-height: 100vh;
+  background-image: url('HOODFUTURE_WEB.gif');
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1, h2, h3, h4 { font-family: "League Gothic", sans-serif; }
-a {font-weight: bold; font-size: 2em; }
-.hf img {
-  width: 100vw;
-  height: auto;
+a {font-weight: bold; font-size: 1.5em; }
 
-}
-
-.nav { background-color: none; position: fixed; }
-.nav a { color: #ffffff; }
+.main { min-height: 100vh; }
+.nav { background-color: none; position: fixed; padding: 20px; }
+.nav a { color: #2d2d2d; }
+.nav a:hover { text-decoration: underline; text-decoration-color: #000; }
 .nav-link { display: block; }
-.nav a:active { color: #ffe0ac; }
-.nav a:hover { color: #ffe0ac; }
-
-.lede { padding-top: 20vh; padding-bottom: 20vh; }
-.lede h1{ padding: 2.5vh 0; }
-.lede h2{ padding: 2.5vh 0; }
-.lede_paragraph { padding-left: 20vw; font-size: 1.5em; }
-.contact { padding-top: 10vh; padding-bottom: 10vh; height: 90vh; }
-.contact h1{ padding: 2.5vh 0; }
-.contact ul{ padding: 2.5vh 0; }
-.contact a { color: #ffe0ac; }
-footer {padding: 2.5vh 0; }
-.channel { width: 100vw; height: auto; }
-.channel img {width: auto; height: auto; }
-.channels{ padding: 20vh 0; }
-
-@media screen and (max-width: 414px ) {
-  .hf { min-height: 100vh; auto; width: 100vw; background-image: url("HOODFUTURE_COM_MOBILE.gif"); }
-  .lede_paragraph { font-size: 1em; }
-  .lede { padding-top: 10vh; padding-bottom: 10vh; }
-  .channels{ padding: 10vh 0; }
-}
