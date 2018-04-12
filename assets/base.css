@@ -14,23 +14,8 @@ body { font-family: 'Roboto', sans-serif; margin: 0; background-color: #FFDEA9; 
 }
 
 h1, h2, h3, h4 { font-family: "League Gothic", sans-serif; }
-a {font-weight: bold; font-size: 1.5em; }
 
 .main { min-height: 100vh; }
-.nav { background-color: none; position: fixed; padding: 20px; }
-.nav a { color: #2d2d2d; }
-.nav a:hover { text-decoration: underline; text-decoration-color: #000; }
-.nav-link { display: block; }
-.about {
-  position: absolute; top: 0; z-index: 9;
-  min-height: 100vh; color: #FFDEA9; background-color: #2d2d2d;
-}
-.about .col { padding-top: 30%; }
-.about_text { padding-bottom: 5%; font-size: 2em; }
-.about_text p { padding: 20px; }
-.about a { padding: 5px; color: #FFDEA9; text-decoration: none; border: 1px solid #FFDEA9; }
-#close_about { padding-bottom: 10%; }
-
-@media screen and ( max-width: 414px ) {
-  .about .col { padding-top: 10%; }
-}
+.text { padding-top: 10%; }
+.text p { font-size: 2em; }
+.text a { padding: 5px; color: #2d2d2d; text-decoration: none; border: 2px solid #2d2d2d; }
